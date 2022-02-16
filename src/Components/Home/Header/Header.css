@@ -22,6 +22,11 @@ header ul li a:hover {
     color: #ff014f;
 }
 
+.logo img {
+    width: 65px;
+    border-radius: 50%;
+}
+
 .home-btn {
     padding: 18px 25px;
     border-radius: 6px;
