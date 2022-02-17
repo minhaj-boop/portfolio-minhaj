@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.css';
-// import hero from '../../pic/hero.png';
-// import skill1 from '../../pic/skill1.png';
-// import skill2 from '../../pic/skill2.png';
-// import skill3 from '../../pic/skill3.png';
+import hero from '../../pic/hero.png';
+import skill1 from '../../pic/skill1.png';
+import skill2 from '../../pic/skill2.png';
+import skill3 from '../../pic/skill3.png';
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -47,7 +47,21 @@ const Home = () => {
                             </div>
                             <div className="col_1">
                                 <h4>BEST SKILLS ON</h4>
+                                <button className="btn_shadow">
+                                    <img src={skill1} alt="" />
+                                </button>
+                                <button className="btn_shadow">
+                                    <img src={skill2} alt="" />
+                                </button>
+                                <button className="btn_shadow">
+                                    <img src={skill3} alt="" />
+                                </button>
                             </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="right_img">
+                            <img src={hero} alt="" />
                         </div>
                     </div>
                 </div>
