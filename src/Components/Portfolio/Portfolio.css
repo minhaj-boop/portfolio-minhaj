@@ -1,0 +1,17 @@
+.portfolio {
+    position: relative;
+}
+.portfolio .box {
+    border-radius: 10px;
+    position: relative;
+}
+
+.portfolio .box:hover {
+    background-color: none;
+    transform: translateY(0);
+}
+
+.portfolio .img {
+    height: 300px;
+    overflow: hidden;
+}

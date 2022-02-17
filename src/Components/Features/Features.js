@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from './Card';
 import './Features.css';
-import data from './FeaturesApi';
 
 const Features = () => {
+
+    const [cardData, setCardData] = useState([]);
+
+    useEffect(() => {
+        fetch('./app-data.json')
+            .then(res => res.json())
+            .then(data => setCardData(data))
+    }, []);
+
+
     return (
         <>
             <section className="features top" id="features">
@@ -14,13 +23,10 @@ const Features = () => {
                     </div>
                     <div className="content grid">
                         {
-                            data.map((val, index) => {
+                            cardData.map((val, index) => {
                                 return <Card
                                     key={index}
                                     val={val}
-                                // img={val.image}
-                                // title={val.title}
-                                // desc={val.desc}
                                 ></Card>
                             })
                         }

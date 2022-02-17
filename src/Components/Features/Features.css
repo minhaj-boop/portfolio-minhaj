@@ -18,5 +18,6 @@
     color: white;
 }
 .features .box:hover i {
+    color: white;
     opacity: 1;
 }

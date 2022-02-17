@@ -8,7 +8,7 @@ const Card = (props) => {
                 <img src={image} alt="" />
                 <h2>{title}</h2>
                 <p>{desc}</p>
-                <a href='#'>
+                <a href='#popup'>
                     <i className="fas fa-arrow-right"></i>
                 </a>
             </div>

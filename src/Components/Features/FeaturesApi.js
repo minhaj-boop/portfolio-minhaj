@@ -14,7 +14,7 @@ const data = [
     {
         id: 3,
         image: "https://img.icons8.com/fluency-systems-regular/64/000000/retro-tv.png ",
-        title: "App Development",
+        title: "Web Development",
         desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     },
     {
