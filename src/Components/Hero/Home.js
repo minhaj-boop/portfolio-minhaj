@@ -32,7 +32,7 @@ const Home = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam dolore iste nobis assumenda similique voluptatem quidem eligendi quae modi, sed, ipsam nisi ipsa animi esse eveniet odio ullam perferendis amet.</p>
                         <div className="hero_btn d_flex">
                             <div className="col_1">
-                                <h4>FIND WITH ME</h4>
+                                <h4>FIND ME</h4>
                                 <div className="button">
                                     <button className="btn_shadow">
                                         <i className="fab fa-facebook-f"></i>

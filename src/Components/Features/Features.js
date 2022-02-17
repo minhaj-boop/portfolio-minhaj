@@ -1,5 +1,7 @@
 import React from 'react';
+import Card from './Card';
 import './Features.css';
+import data from './FeaturesApi';
 
 const Features = () => {
     return (
@@ -11,30 +13,17 @@ const Features = () => {
                         <h1>What I do</h1>
                     </div>
                     <div className="content grid">
-                        <div className="box btn_shadow">
-                            <img src="" alt="" />
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, repellat rerum. Ea ab cum distinctio illo ratione, nulla consequatur, laudantium impedit tenetur alias recusandae ad, et rerum necessitatibus libero. At.</p>
-                            <a href=''>
-                                <i className="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div className="box btn_shadow">
-                            <img src="" alt="" />
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, repellat rerum. Ea ab cum distinctio illo ratione, nulla consequatur, laudantium impedit tenetur alias recusandae ad, et rerum necessitatibus libero. At.</p>
-                            <a href=''>
-                                <i className="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div className="box btn_shadow">
-                            <img src="" alt="" />
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, repellat rerum. Ea ab cum distinctio illo ratione, nulla consequatur, laudantium impedit tenetur alias recusandae ad, et rerum necessitatibus libero. At.</p>
-                            <a href=''>
-                                <i className="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
+                        {
+                            data.map((val, index) => {
+                                return <Card
+                                    key={index}
+                                    val={val}
+                                // img={val.image}
+                                // title={val.title}
+                                // desc={val.desc}
+                                ></Card>
+                            })
+                        }
                     </div>
                 </div>
             </section>
