@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./Components/Hero/Home";
 import Features from "./Components/Features/Features";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Resume from "./Components/Resume/Resume";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Home></Home>
       <Features></Features>
       <Portfolio></Portfolio>
+      <Resume></Resume>
     </div>
   );
 }
