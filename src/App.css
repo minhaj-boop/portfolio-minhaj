@@ -64,8 +64,10 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
-.row, .left, .right {
-  width: 50%
+.row,
+.left,
+.right {
+  width: 50%;
 }
 .top {
   margin-top: 80px;
@@ -83,10 +85,10 @@ button {
 }
 .heading h1 {
   font-size: 60px;
-  color:#3c3e41;
+  color: #3c3e41;
 }
 h1 {
-  color:#3c3e41;
+  color: #3c3e41;
 }
 .grid {
   display: grid;

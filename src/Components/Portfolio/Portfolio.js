@@ -14,18 +14,16 @@ const Portfolio = () => {
 
     return (
         <>
-            <section className="portfolio top" id="portfolio">
-                <div className="container">
-                    <div className="heading text-center">
-                        <h4>VISIT MY PORTFOLIO AND GIVE YOUR FEEDBACK</h4>
+            <section className='portfolio top' id='portfolio'>
+                <div className='container'>
+                    <div className='heading text-center '>
+                        <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
                         <h1>My Portfolio</h1>
                     </div>
-                    <div className="content grid">
+
+                    <div className='content grid'>
                         {portfolio.map((value, index) => {
-                            return <Card
-                                key={index}
-                                val={value}
-                            ></Card>
+                            return <Card key={index} val={value} />
                         })}
                     </div>
                 </div>
