@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from './Card';
+import './Resume.css';
 
 
 const Resume = () => {
@@ -19,7 +20,7 @@ const Resume = () => {
                         <h4>+1 YEARS OF EXPERIENCE</h4>
                         <h1>My Resume</h1>
                     </div>
-                    <div className="content-section mtop d_felx">
+                    <div className="content-section mtop d_flex">
                         <div className="left">
                             <div className="heading">
                                 <h4>2020-2022</h4>
