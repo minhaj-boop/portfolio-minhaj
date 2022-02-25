@@ -66,13 +66,13 @@ const Home = () => {
                             </div>
                             <div className="col_1">
                                 <h4>BEST SKILLS ON</h4>
-                                <button className="btn_shadow">
+                                <button className="btn_shadow" title="React JS">
                                     <img src={skill1} alt="" />
                                 </button>
-                                <button className="btn_shadow">
+                                <button className="btn_shadow" title="Android App">
                                     <img src={skill2} alt="" />
                                 </button>
-                                <button className="btn_shadow">
+                                <button className="btn_shadow" title="MERN Stack">
                                     <img src={skill3} alt="" />
                                 </button>
                             </div>
