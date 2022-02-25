@@ -53,13 +53,19 @@ const Home = () => {
                             <div className="col_1">
                                 <h4>FIND ME</h4>
                                 <div className="button">
-                                    <button className="btn_shadow">
+                                    <button className="btn_shadow" onClick={() => {
+                                        window.open('https://www.facebook.com/minhajulislam1.7.95/', '_blank');
+                                    }}>
                                         <i className="fab fa-facebook-f"></i>
                                     </button>
-                                    <button className="btn_shadow">
+                                    <button className="btn_shadow" onClick={() => {
+                                        window.open('https://www.instagram.com/preminhaj/', '_blank')
+                                    }}>
                                         <i className="fab fa-instagram"></i>
                                     </button>
-                                    <button className="btn_shadow">
+                                    <button className="btn_shadow" onClick={() => {
+                                        window.open('https://www.linkedin.com/in/imminhajul-islam/', '_blank')
+                                    }}>
                                         <i className="fab fa-linkedin-in"></i>
                                     </button>
                                 </div>

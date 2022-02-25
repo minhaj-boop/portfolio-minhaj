@@ -45,19 +45,25 @@ const Contact = () => {
                                 </div>
                                 <div className="details">
                                     <h1>Mohammed Minhaj</h1>
-                                    <p>I am available for freelancing and part-time Full-stack Web-development.</p>
+                                    <p>I am available for Freelancing and part-time Full-stack Web-development.</p>
                                     <p>Phone: +88 01626885465</p>
                                     <p>Email: imminhajj@gmail.com</p>
                                     <span>FIND ME</span>
                                     <div className="button f_flex">
-                                        <button className="btn_shadow">
+                                        <button className="btn_shadow" onClick={() => {
+                                            window.open('https://www.facebook.com/minhajulislam1.7.95/', '_blank');
+                                        }}>
                                             <i className="fab fa-facebook-f"></i>
                                         </button>
-                                        <button className="btn_shadow">
+                                        <button className="btn_shadow" onClick={() => {
+                                            window.open('https://www.instagram.com/preminhaj/', '_blank')
+                                        }}>
                                             <i className="fab fa-instagram"></i>
                                         </button>
-                                        <button className="btn_shadow">
-                                            <i className="fab fa-twitter"></i>
+                                        <button className="btn_shadow" onClick={() => {
+                                            window.open('https://www.linkedin.com/in/imminhajul-islam/', '_blank')
+                                        }}>
+                                            <i className="fab fa-linkedin-in"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -80,10 +86,10 @@ const Contact = () => {
                                     <span>EMAIL</span>
                                     <input type='email' name='email' value={data.email} onChange={inputEvent} />
                                 </div>
-                                <div className="input">
+                                {/* <div className="input">
                                     <span>SUBJECT</span>
                                     <input type='text' name='subject' value={data.subject} onChange={inputEvent} />
-                                </div>
+                                </div> */}
                                 <div className="input">
                                     <span>YOUR MESSAGE</span>
                                     <textarea cols='30' rows='6' name='message' value={data.message} onChange={inputEvent} />

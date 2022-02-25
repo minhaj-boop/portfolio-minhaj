@@ -39,7 +39,7 @@ const Resume = () => {
                         <div className="left">
                             <div className="heading">
                                 <h4>2020-2022</h4>
-                                <h1>Job Experience</h1>
+                                <h1>Work Experience</h1>
                             </div>
                             <div className="content">
                                 {resume.map((value, id) => {

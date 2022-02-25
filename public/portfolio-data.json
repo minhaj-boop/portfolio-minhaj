@@ -3,42 +3,42 @@
         "id": 1,
         "category": "DEVELOPMENT",
         "totalLike": "600",
-        "title": "The services provide for design ",
+        "title": "Details coming soon.",
         "image": "https://i.ibb.co/JKRpGfh/pic1.jpg"
     },
     {
         "id": 2,
         "category": "APPLICATION",
         "totalLike": "750",
-        "title": "Mobile app landing design & maintain",
+        "title": "Details coming soon.",
         "image": "https://i.ibb.co/Cz9BZzB/pic2.jpg"
     },
     {
         "id": 3,
-        "category": "PHOTOSHOP",
+        "category": "ANDROID",
         "totalLike": "630",
-        "title": "Logo design creativity & Application ",
+        "title": "Details coming soon.",
         "image": "https://i.ibb.co/4FW780v/pic3.jpg"
     },
     {
         "id": 4,
-        "category": "FIGMA",
+        "category": "DESKTOP APP",
         "totalLike": "360",
-        "title": "Mobile app landing design & Services",
+        "title": "Details coming soon.",
         "image": "https://i.ibb.co/Cbwbqpy/pic4.jpg"
     },
     {
         "id": 5,
-        "category": "WEB DESIGN",
+        "category": "WEB DEV",
         "totalLike": "280",
-        "title": "Design for tecnology & services",
+        "title": "Details coming soon.",
         "image": "https://i.ibb.co/R2dyBQy/pic5.jpg"
     },
     {
         "id": 6,
-        "category": "WEB DESIGN",
+        "category": "WEB DEV",
         "totalLike": "690",
-        "title": "App for tecnology & services",
+        "title": "Details coming soon.",
         "image": "https://i.ibb.co/kHn6zzp/pic6.jpg"
     }
 ]
